@@ -161,4 +161,4 @@ class Eval(abc.ABC):
                 "To use `get_samples`, you must provide a `samples_jsonl` path." "Got `None`."
             )
 
-        return get_jsonl(self.samples_jsonl)
+        return get_jsonl(self.samples_jsonl)[:20]

@@ -62,7 +62,7 @@ class Translate(evals.Eval):
 
             if score is not None:
                 evals.record.record_match(
-                    match, expected=expected, sampled=sampled, sacrebleu_sentence_score=score
+                    match, prompt=prompt, expected=expected, sampled=sampled, sacrebleu_sentence_score=score
                 )
             return match
 

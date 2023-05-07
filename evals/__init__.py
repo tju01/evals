@@ -6,3 +6,4 @@ from .completion_fns.openai import (
 )
 from .data import get_csv, get_json, get_jsonl, get_jsonls, get_lines, iter_jsonls
 from .eval import Eval
+from .cli.oaieval import get_parser, run

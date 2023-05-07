@@ -94,6 +94,11 @@ class ModelBasedClassify(evals.Eval):
             assert "choice" in test_sample
             metrics["metascore"] = choice == test_sample["choice"]
 
+        evals.record.record_sampling(
+            prompt=test_sample,
+            sampled=completions,
+            info=info,
+        )
         evals.record.record_metrics(**metrics)
 
         return choice
