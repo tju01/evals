@@ -43,12 +43,12 @@ class Includes(evals.Eval):
             [utils.get_answer(sampled, ref, self.ignore_case) is not None for ref in ideal]
         )
         evals.record.record_match(
-            includes_answer, expected=sample["ideal"], picked=sampled, sampled=sampled
+            includes_answer, expected=sample["ideal"], picked=sampled, prompt=prompt, sampled=sampled
         )
         return includes_answer
 
-    def run(self, recorder):
-        samples = self.get_samples()
+    def run(self, recorder, *, max_num_samples: int):
+        samples = self.get_samples(max_num_samples=max_num_samples)
         self.eval_all_samples(recorder, samples)
         events = recorder.get_events("match")
         return {

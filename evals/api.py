@@ -101,5 +101,5 @@ def record_and_check_match(
     match = picked in expected
     result["expected"] = expected
     result["match"] = match
-    record_match(match, expected=expected, picked=picked, sampled=sampled, options=options)
+    record_match(match, expected=expected, picked=picked, sampled=sampled, prompt=prompt, options=options)
     return picked

@@ -141,10 +141,10 @@ class Eval(abc.ABC):
             idx_and_result = list(tqdm(iter, total=len(work_items), disable=not show_progress))
         return [r for _, r in sorted(idx_and_result)]
 
-    def get_samples(self):
+    def get_samples(self, *, max_num_samples: int):
         if self.samples_jsonl is None:
             raise ValueError(
                 "To use `get_samples`, you must provide a `samples_jsonl` path." "Got `None`."
             )
 
-        return get_jsonl(self.samples_jsonl)
+        return get_jsonl(self.samples_jsonl)[:max_num_samples]

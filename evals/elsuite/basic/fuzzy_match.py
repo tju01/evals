@@ -43,6 +43,8 @@ class FuzzyMatch(evals.Eval):
         evals.record.record_match(
             True in matches,
             expected=correct_answers,
+            test_sample=test_sample,
+            sampled=sampled,
             picked=[sampled for i in range(len(correct_answers)) if matches[i]],
         )
         evals.record.record_metrics(
@@ -50,8 +52,8 @@ class FuzzyMatch(evals.Eval):
             f1_score=utils.f1_score(sampled, correct_answers),
         )
 
-    def run(self, recorder: RecorderBase):
-        samples = self.get_samples()
+    def run(self, recorder: RecorderBase, *, max_num_samples: int):
+        samples = self.get_samples(max_num_samples=max_num_samples)
         self.eval_all_samples(recorder, samples)
 
         return {

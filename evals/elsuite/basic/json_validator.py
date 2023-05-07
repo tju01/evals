@@ -39,8 +39,8 @@ class JsonValidator(evals.Eval):
         sampled = result.get_completions()[0]
         return evals.record.record_match(is_valid_json(sampled), expected=None, picked=sampled)
 
-    def run(self, recorder):
-        samples = self.get_samples()
+    def run(self, recorder, *, max_num_samples: int):
+        samples = self.get_samples(max_num_samples=max_num_samples)
         self.eval_all_samples(recorder, samples)
         events = recorder.get_events("match")
         return {

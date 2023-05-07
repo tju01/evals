@@ -55,8 +55,8 @@ class Match(evals.Eval):
             expected=sample["ideal"],
         )
 
-    def run(self, recorder):
-        samples = self.get_samples()
+    def run(self, recorder, *, max_num_samples: int):
+        samples = self.get_samples(max_num_samples=max_num_samples)
         self.eval_all_samples(recorder, samples)
         events = recorder.get_events("match")
         return {

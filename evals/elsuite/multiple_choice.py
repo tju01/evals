@@ -81,9 +81,9 @@ class MultipleChoice(evals.Eval):
         )
 
 
-    def run(self, recorder: RecorderBase):
+    def run(self, recorder: RecorderBase, *, max_num_samples: int):
         samples = get_dataset(self.dataset)
-        self.eval_all_samples(recorder, samples)
+        self.eval_all_samples(recorder, samples[:max_num_samples])
         return {
             "accuracy": evals.metrics.get_accuracy(recorder.get_events("match")),
         }

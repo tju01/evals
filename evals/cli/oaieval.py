@@ -73,7 +73,7 @@ class OaiEvalArguments(argparse.Namespace):
     dry_run_logging: bool
 
 
-def run(args: OaiEvalArguments, registry: Optional[Registry] = None) -> str:
+def run(args: OaiEvalArguments, registry: Optional[Registry] = None, *, max_num_samples: int) -> str:
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
@@ -168,7 +168,7 @@ def run(args: OaiEvalArguments, registry: Optional[Registry] = None) -> str:
         registry=registry,
         **extra_eval_params,
     )
-    result = eval.run(recorder)
+    result = eval.run(recorder, max_num_samples=max_num_samples)
     recorder.record_final_report(result)
 
     if not (args.dry_run or args.local_run):
