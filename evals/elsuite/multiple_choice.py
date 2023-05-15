@@ -19,7 +19,7 @@ def get_dataset(url: str) -> list[Sample]:
         query = parse_qs(parsed.query)
         query = {k: v[0] for k, v in query.items()}
 
-        path = parsed.netloc
+        path = parsed.netloc + parsed.path
 
         dataset = load_dataset(path, **query)
         if path == "hellaswag":
@@ -31,7 +31,7 @@ def get_dataset(url: str) -> list[Sample]:
                 )
                 for sample in dataset
             ]
-        elif path == "hendrycks_test":
+        elif path == "cais/mmlu":
             return [
                 Sample(
                     question=sample["question"],

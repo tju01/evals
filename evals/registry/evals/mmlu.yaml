@@ -4,7 +4,7 @@ mmlu-abstract-algebra:
 mmlu-abstract-algebra.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=abstract_algebra&split=validation
+    dataset: hf://cais/mmlu?name=abstract_algebra&split=validation
 
 mmlu-anatomy:
   id: mmlu-anatomy.val.ab-v1
@@ -12,7 +12,7 @@ mmlu-anatomy:
 mmlu-anatomy.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=anatomy&split=validation
+    dataset: hf://cais/mmlu?name=anatomy&split=validation
 
 mmlu-astronomy:
   id: mmlu-astronomy.val.ab-v1
@@ -20,7 +20,7 @@ mmlu-astronomy:
 mmlu-astronomy.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=astronomy&split=validation
+    dataset: hf://cais/mmlu?name=astronomy&split=validation
 
 mmlu-business-ethics:
   id: mmlu-business-ethics.val.ab-v1
@@ -28,7 +28,7 @@ mmlu-business-ethics:
 mmlu-business-ethics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=business_ethics&split=validation
+    dataset: hf://cais/mmlu?name=business_ethics&split=validation
 
 mmlu-clinical-knowledge:
   id: mmlu-clinical-knowledge.val.ab-v1
@@ -36,7 +36,7 @@ mmlu-clinical-knowledge:
 mmlu-clinical-knowledge.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=clinical_knowledge&split=validation
+    dataset: hf://cais/mmlu?name=clinical_knowledge&split=validation
 
 mmlu-college-biology:
   id: mmlu-college-biology.val.ab-v1
@@ -44,7 +44,7 @@ mmlu-college-biology:
 mmlu-college-biology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_biology&split=validation
+    dataset: hf://cais/mmlu?name=college_biology&split=validation
 
 mmlu-college-chemistry:
   id: mmlu-college-chemistry.val.ab-v1
@@ -52,7 +52,7 @@ mmlu-college-chemistry:
 mmlu-college-chemistry.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_chemistry&split=validation
+    dataset: hf://cais/mmlu?name=college_chemistry&split=validation
 
 mmlu-college-computer-science:
   id: mmlu-college-computer-science.val.ab-v1
@@ -60,7 +60,7 @@ mmlu-college-computer-science:
 mmlu-college-computer-science.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_computer_science&split=validation
+    dataset: hf://cais/mmlu?name=college_computer_science&split=validation
 
 mmlu-college-mathematics:
   id: mmlu-college-mathematics.val.ab-v1
@@ -68,7 +68,7 @@ mmlu-college-mathematics:
 mmlu-college-mathematics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_mathematics&split=validation
+    dataset: hf://cais/mmlu?name=college_mathematics&split=validation
 
 mmlu-college-medicine:
   id: mmlu-college-medicine.val.ab-v1
@@ -76,7 +76,7 @@ mmlu-college-medicine:
 mmlu-college-medicine.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_medicine&split=validation
+    dataset: hf://cais/mmlu?name=college_medicine&split=validation
 
 mmlu-college-physics:
   id: mmlu-college-physics.val.ab-v1
@@ -84,7 +84,7 @@ mmlu-college-physics:
 mmlu-college-physics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=college_physics&split=validation
+    dataset: hf://cais/mmlu?name=college_physics&split=validation
 
 mmlu-computer-security:
   id: mmlu-computer-security.val.ab-v1
@@ -92,7 +92,7 @@ mmlu-computer-security:
 mmlu-computer-security.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=computer_security&split=validation
+    dataset: hf://cais/mmlu?name=computer_security&split=validation
 
 mmlu-conceptual-physics:
   id: mmlu-conceptual-physics.val.ab-v1
@@ -100,7 +100,7 @@ mmlu-conceptual-physics:
 mmlu-conceptual-physics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=conceptual_physics&split=validation
+    dataset: hf://cais/mmlu?name=conceptual_physics&split=validation
 
 mmlu-econometrics:
   id: mmlu-econometrics.val.ab-v1
@@ -108,7 +108,7 @@ mmlu-econometrics:
 mmlu-econometrics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=econometrics&split=validation
+    dataset: hf://cais/mmlu?name=econometrics&split=validation
 
 mmlu-electrical-engineering:
   id: mmlu-electrical-engineering.val.ab-v1
@@ -116,7 +116,7 @@ mmlu-electrical-engineering:
 mmlu-electrical-engineering.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=electrical_engineering&split=validation
+    dataset: hf://cais/mmlu?name=electrical_engineering&split=validation
 
 mmlu-elementary-mathematics:
   id: mmlu-elementary-mathematics.val.ab-v1
@@ -124,7 +124,7 @@ mmlu-elementary-mathematics:
 mmlu-elementary-mathematics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=elementary_mathematics&split=validation
+    dataset: hf://cais/mmlu?name=elementary_mathematics&split=validation
 
 mmlu-formal-logic:
   id: mmlu-formal-logic.val.ab-v1
@@ -132,7 +132,7 @@ mmlu-formal-logic:
 mmlu-formal-logic.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=formal_logic&split=validation
+    dataset: hf://cais/mmlu?name=formal_logic&split=validation
 
 mmlu-global-facts:
   id: mmlu-global-facts.val.ab-v1
@@ -140,7 +140,7 @@ mmlu-global-facts:
 mmlu-global-facts.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=global_facts&split=validation
+    dataset: hf://cais/mmlu?name=global_facts&split=validation
 
 mmlu-high-school-biology:
   id: mmlu-high-school-biology.val.ab-v1
@@ -148,7 +148,7 @@ mmlu-high-school-biology:
 mmlu-high-school-biology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_biology&split=validation
+    dataset: hf://cais/mmlu?name=high_school_biology&split=validation
 
 mmlu-high-school-chemistry:
   id: mmlu-high-school-chemistry.val.ab-v1
@@ -156,7 +156,7 @@ mmlu-high-school-chemistry:
 mmlu-high-school-chemistry.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_chemistry&split=validation
+    dataset: hf://cais/mmlu?name=high_school_chemistry&split=validation
 
 mmlu-high-school-computer-science:
   id: mmlu-high-school-computer-science.val.ab-v1
@@ -164,7 +164,7 @@ mmlu-high-school-computer-science:
 mmlu-high-school-computer-science.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_computer_science&split=validation
+    dataset: hf://cais/mmlu?name=high_school_computer_science&split=validation
 
 mmlu-high-school-european-history:
   id: mmlu-high-school-european-history.val.ab-v1
@@ -172,7 +172,7 @@ mmlu-high-school-european-history:
 mmlu-high-school-european-history.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_european_history&split=validation
+    dataset: hf://cais/mmlu?name=high_school_european_history&split=validation
 
 mmlu-high-school-geography:
   id: mmlu-high-school-geography.val.ab-v1
@@ -180,7 +180,7 @@ mmlu-high-school-geography:
 mmlu-high-school-geography.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_geography&split=validation
+    dataset: hf://cais/mmlu?name=high_school_geography&split=validation
 
 mmlu-high-school-government-and-politics:
   id: mmlu-high-school-government-and-politics.val.ab-v1
@@ -188,7 +188,7 @@ mmlu-high-school-government-and-politics:
 mmlu-high-school-government-and-politics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_government_and_politics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_government_and_politics&split=validation
 
 mmlu-high-school-macroeconomics:
   id: mmlu-high-school-macroeconomics.val.ab-v1
@@ -196,7 +196,7 @@ mmlu-high-school-macroeconomics:
 mmlu-high-school-macroeconomics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_macroeconomics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_macroeconomics&split=validation
 
 mmlu-high-school-mathematics:
   id: mmlu-high-school-mathematics.val.ab-v1
@@ -204,7 +204,7 @@ mmlu-high-school-mathematics:
 mmlu-high-school-mathematics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_mathematics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_mathematics&split=validation
 
 mmlu-high-school-microeconomics:
   id: mmlu-high-school-microeconomics.val.ab-v1
@@ -212,7 +212,7 @@ mmlu-high-school-microeconomics:
 mmlu-high-school-microeconomics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_microeconomics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_microeconomics&split=validation
 
 mmlu-high-school-physics:
   id: mmlu-high-school-physics.val.ab-v1
@@ -220,7 +220,7 @@ mmlu-high-school-physics:
 mmlu-high-school-physics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_physics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_physics&split=validation
 
 mmlu-high-school-psychology:
   id: mmlu-high-school-psychology.val.ab-v1
@@ -228,7 +228,7 @@ mmlu-high-school-psychology:
 mmlu-high-school-psychology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_psychology&split=validation
+    dataset: hf://cais/mmlu?name=high_school_psychology&split=validation
 
 mmlu-high-school-statistics:
   id: mmlu-high-school-statistics.val.ab-v1
@@ -236,7 +236,7 @@ mmlu-high-school-statistics:
 mmlu-high-school-statistics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_statistics&split=validation
+    dataset: hf://cais/mmlu?name=high_school_statistics&split=validation
 
 mmlu-high-school-us-history:
   id: mmlu-high-school-us-history.val.ab-v1
@@ -244,7 +244,7 @@ mmlu-high-school-us-history:
 mmlu-high-school-us-history.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_us_history&split=validation
+    dataset: hf://cais/mmlu?name=high_school_us_history&split=validation
 
 mmlu-high-school-world-history:
   id: mmlu-high-school-world-history.val.ab-v1
@@ -252,7 +252,7 @@ mmlu-high-school-world-history:
 mmlu-high-school-world-history.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=high_school_world_history&split=validation
+    dataset: hf://cais/mmlu?name=high_school_world_history&split=validation
 
 mmlu-human-aging:
   id: mmlu-human-aging.val.ab-v1
@@ -260,7 +260,7 @@ mmlu-human-aging:
 mmlu-human-aging.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=human_aging&split=validation
+    dataset: hf://cais/mmlu?name=human_aging&split=validation
 
 mmlu-human-sexuality:
   id: mmlu-human-sexuality.val.ab-v1
@@ -268,7 +268,7 @@ mmlu-human-sexuality:
 mmlu-human-sexuality.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=human_sexuality&split=validation
+    dataset: hf://cais/mmlu?name=human_sexuality&split=validation
 
 mmlu-international-law:
   id: mmlu-international-law.val.ab-v1
@@ -276,7 +276,7 @@ mmlu-international-law:
 mmlu-international-law.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=international_law&split=validation
+    dataset: hf://cais/mmlu?name=international_law&split=validation
 
 mmlu-jurisprudence:
   id: mmlu-jurisprudence.val.ab-v1
@@ -284,7 +284,7 @@ mmlu-jurisprudence:
 mmlu-jurisprudence.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=jurisprudence&split=validation
+    dataset: hf://cais/mmlu?name=jurisprudence&split=validation
 
 mmlu-logical-fallacies:
   id: mmlu-logical-fallacies.val.ab-v1
@@ -292,7 +292,7 @@ mmlu-logical-fallacies:
 mmlu-logical-fallacies.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=logical_fallacies&split=validation
+    dataset: hf://cais/mmlu?name=logical_fallacies&split=validation
 
 mmlu-machine-learning:
   id: mmlu-machine-learning.val.ab-v1
@@ -300,7 +300,7 @@ mmlu-machine-learning:
 mmlu-machine-learning.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=machine_learning&split=validation
+    dataset: hf://cais/mmlu?name=machine_learning&split=validation
 
 mmlu-management:
   id: mmlu-management.val.ab-v1
@@ -308,7 +308,7 @@ mmlu-management:
 mmlu-management.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=management&split=validation
+    dataset: hf://cais/mmlu?name=management&split=validation
 
 mmlu-marketing:
   id: mmlu-marketing.val.ab-v1
@@ -316,7 +316,7 @@ mmlu-marketing:
 mmlu-marketing.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=marketing&split=validation
+    dataset: hf://cais/mmlu?name=marketing&split=validation
 
 mmlu-medical-genetics:
   id: mmlu-medical-genetics.val.ab-v1
@@ -324,7 +324,7 @@ mmlu-medical-genetics:
 mmlu-medical-genetics.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=medical_genetics&split=validation
+    dataset: hf://cais/mmlu?name=medical_genetics&split=validation
 
 mmlu-miscellaneous:
   id: mmlu-miscellaneous.val.ab-v1
@@ -332,7 +332,7 @@ mmlu-miscellaneous:
 mmlu-miscellaneous.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=miscellaneous&split=validation
+    dataset: hf://cais/mmlu?name=miscellaneous&split=validation
 
 mmlu-moral-disputes:
   id: mmlu-moral-disputes.val.ab-v1
@@ -340,7 +340,7 @@ mmlu-moral-disputes:
 mmlu-moral-disputes.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=moral_disputes&split=validation
+    dataset: hf://cais/mmlu?name=moral_disputes&split=validation
 
 mmlu-moral-scenarios:
   id: mmlu-moral-scenarios.val.ab-v1
@@ -348,7 +348,7 @@ mmlu-moral-scenarios:
 mmlu-moral-scenarios.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=moral_scenarios&split=validation
+    dataset: hf://cais/mmlu?name=moral_scenarios&split=validation
 
 mmlu-nutrition:
   id: mmlu-nutrition.val.ab-v1
@@ -356,7 +356,7 @@ mmlu-nutrition:
 mmlu-nutrition.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=nutrition&split=validation
+    dataset: hf://cais/mmlu?name=nutrition&split=validation
 
 mmlu-philosophy:
   id: mmlu-philosophy.val.ab-v1
@@ -364,7 +364,7 @@ mmlu-philosophy:
 mmlu-philosophy.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=philosophy&split=validation
+    dataset: hf://cais/mmlu?name=philosophy&split=validation
 
 mmlu-prehistory:
   id: mmlu-prehistory.val.ab-v1
@@ -372,7 +372,7 @@ mmlu-prehistory:
 mmlu-prehistory.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=prehistory&split=validation
+    dataset: hf://cais/mmlu?name=prehistory&split=validation
 
 mmlu-professional-accounting:
   id: mmlu-professional-accounting.val.ab-v1
@@ -380,7 +380,7 @@ mmlu-professional-accounting:
 mmlu-professional-accounting.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=professional_accounting&split=validation
+    dataset: hf://cais/mmlu?name=professional_accounting&split=validation
 
 mmlu-professional-law:
   id: mmlu-professional-law.val.ab-v1
@@ -388,7 +388,7 @@ mmlu-professional-law:
 mmlu-professional-law.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=professional_law&split=validation
+    dataset: hf://cais/mmlu?name=professional_law&split=validation
 
 mmlu-professional-medicine:
   id: mmlu-professional-medicine.val.ab-v1
@@ -396,7 +396,7 @@ mmlu-professional-medicine:
 mmlu-professional-medicine.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=professional_medicine&split=validation
+    dataset: hf://cais/mmlu?name=professional_medicine&split=validation
 
 mmlu-professional-psychology:
   id: mmlu-professional-psychology.val.ab-v1
@@ -404,7 +404,7 @@ mmlu-professional-psychology:
 mmlu-professional-psychology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=professional_psychology&split=validation
+    dataset: hf://cais/mmlu?name=professional_psychology&split=validation
 
 mmlu-public-relations:
   id: mmlu-public-relations.val.ab-v1
@@ -412,7 +412,7 @@ mmlu-public-relations:
 mmlu-public-relations.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=public_relations&split=validation
+    dataset: hf://cais/mmlu?name=public_relations&split=validation
 
 mmlu-security-studies:
   id: mmlu-security-studies.val.ab-v1
@@ -420,7 +420,7 @@ mmlu-security-studies:
 mmlu-security-studies.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=security_studies&split=validation
+    dataset: hf://cais/mmlu?name=security_studies&split=validation
 
 mmlu-sociology:
   id: mmlu-sociology.val.ab-v1
@@ -428,7 +428,7 @@ mmlu-sociology:
 mmlu-sociology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=sociology&split=validation
+    dataset: hf://cais/mmlu?name=sociology&split=validation
 
 mmlu-us-foreign-policy:
   id: mmlu-us-foreign-policy.val.ab-v1
@@ -436,7 +436,7 @@ mmlu-us-foreign-policy:
 mmlu-us-foreign-policy.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=us_foreign_policy&split=validation
+    dataset: hf://cais/mmlu?name=us_foreign_policy&split=validation
 
 mmlu-virology:
   id: mmlu-virology.val.ab-v1
@@ -444,7 +444,7 @@ mmlu-virology:
 mmlu-virology.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=virology&split=validation
+    dataset: hf://cais/mmlu?name=virology&split=validation
 
 mmlu-world-religions:
   id: mmlu-world-religions.val.ab-v1
@@ -452,4 +452,4 @@ mmlu-world-religions:
 mmlu-world-religions.val.ab-v1:
   class: evals.elsuite.multiple_choice:MultipleChoice
   args:
-    dataset: hf://hendrycks_test?name=world_religions&split=validation
+    dataset: hf://cais/mmlu?name=world_religions&split=validation
