@@ -174,7 +174,6 @@ class RecorderBase:
             self._events.append(event)
             if (
                 self._flushes_done < self._flushes_started
-                or len(self._events) < self._written_events + MIN_FLUSH_EVENTS
                 or time.time() < self._last_flush_time + MIN_FLUSH_SECONDS
             ):
                 return
